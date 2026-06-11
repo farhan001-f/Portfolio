@@ -658,27 +658,7 @@
     }, 1000);
   });
 
-  /* ========================
-     CUSTOM CURSOR
-  ======================== */
-  const dot  = document.getElementById('cursorDot');
-  const cyber = document.getElementById('cursorcyper');
-  let mouseX = 0, mouseY = 0, cyberX = 0, cyberY = 0;
 
-  document.addEventListener('mousemove', e => {
-    mouseX = e.clientX; mouseY = e.clientY;
-    dot.style.left  = mouseX + 'px';
-    dot.style.top   = mouseY + 'px';
-  });
-
-  // Smooth ring follow
-  function animatecyber() {
-    cyberX += (mouseX - cyberX) * 0.12;
-    cyberY += (mouseY - cyberY) * 0.12;
-    cyber.style.left = cyberX + 'px';
-    cyber.style.top  = cyberY + 'px';
-    requestAnimationFrame(animatecyber);
-  }
   animatecyber();
 
   document.querySelectorAll('a, button, .glass-card, .service-card, .project-card, .skill-hex, .social-link, .filter-btn, .slider-dot')
