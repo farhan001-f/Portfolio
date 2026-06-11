@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="f.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Farhan Jameel — Digital Marketer & Creative Professional</title>
+  <meta name="description" content="Muhammad Farhan Jameel — Digital Marketer, SEO Specialist, Video Editor & Content Creator. Available for freelance projects worldwide." />
+  <meta name="keywords" content="Digital Marketing, SEO, Video Editing, Content Creator, Freelancer, Muhammad Farhan Jameel" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="font-family: 'JetBrains Mono', monospace;" crossorigin />
+  <link href="//fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================
+       CSS CUSTOM PROPERTIES (DESIGN TOKENS)
+    ============================================ */
+    
+  </style>
+</head>
+<body>
+
+<!-- Background grid -->
+<div class="bg-grid"></div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-cyber" id="cursorcyber"></div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============================================
+     LOADING SCREEN
+============================================ -->
+<div class="loader" id="loader">
+  <div class="loader-logo">MFJ</div>
+  <div class="loader-bar-wrap">
+    <div class="loader-bar"></div>
+  </div>
+  <div class="loader-text">Initializing portfolio_</div>
+</div>
+
+<!-- ============================================
+     NAVIGATION
+============================================ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">MFJ.</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mobile-close" id="mobileClose">✕</span>
+  <a href="#about" class="mobile-nav-link">About</a>
+  <a href="#services" class="mobile-nav-link">Services</a>
+  <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+  <a href="#skills" class="mobile-nav-link">Skills</a>
+  <a href="#testimonials" class="mobile-nav-link">Reviews</a>
+  <a href="#contact" class="mobile-nav-link">Contact</a>
+</div>
+
+<!-- ============================================
+     HERO SECTION
+============================================ -->
+<section id="hero">
+  <canvas id="particleCanvas"></canvas>
+  <div class="hero-orb orb-1"></div>
+  <div class="hero-orb orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">
+      <span class="dot"></span>
+      Available for Freelance Projects
+    </div>
+
+    <h1 class="hero-name">
+      <span class="line-1">Muhammad</span>
+      <span class="line-2">Farhan Jameel</span>
+    </h1>
+
+    <p class="hero-title">
+      Digital Marketer
+      <span class="sep"></span>
+      SEO Specialist
+      <span class="sep"></span>
+      Video Editor
+      <span class="sep"></span>
+      Content Creator
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="btn-primary">
+        ✦ Hire Me
+      </a>
+      <a href="#portfolio" class="btn-secondary">
+        View Portfolio →
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num" data-count="50">0</div>
+        <div class="stat-label">Projects Done</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="30">0</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="3">0</div>
+        <div class="stat-label">Years Exp.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ============================================
+     ABOUT SECTION
+============================================ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal">
+      <div class="about-img-frame">
+        <div class="about-avatar-placeholder">MFJ</div>
+      </div>
+      <div class="about-badge top-right glass-card">
+        <div class="badge-num">50+</div>
+        <div class="badge-txt">Projects</div>
+      </div>
+      <div class="about-badge bot-left glass-card">
+        <div class="badge-num">5★</div>
+        <div class="badge-txt">Rating</div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <div class="section-label reveal">About Me</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        Crafting <span class="gradient-text">Digital Experiences</span> That Convert
+      </h2>
+      <p class="reveal reveal-delay-2">
+        I'm Muhammad Farhan Jameel — a multi-disciplined creative professional passionate about building brands that stand out. With a sharp eye for design and a data-driven approach to marketing, I help businesses grow their digital presence from the ground up.
+      </p>
+      <p class="reveal reveal-delay-3">
+        From crafting compelling SEO strategies to producing cinematic video edits, I bring a full-spectrum skill set to every project. Based in Pakistan, working globally.
+      </p>
+
+      <div class="skills-bars reveal reveal-delay-4">
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span class="skill-bar-name">Digital Marketing</span>
+            <span class="skill-bar-pct">92%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="92"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span class="skill-bar-name">SEO Optimization</span>
+            <span class="skill-bar-pct">88%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="88"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span class="skill-bar-name">Video Editing</span>
+            <span class="skill-bar-pct">85%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="85"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span class="skill-bar-name">Content Creation</span>
+            <span class="skill-bar-pct">90%</span>
+          </div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="90"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SERVICES SECTION
+============================================ -->
+<section id="services">
+  <div class="section-header-center text-center">
+    <div class="section-label reveal">What I Do</div>
+    <h2 class="section-title reveal reveal-delay-1">Services I <span class="gradient-text">Specialize In</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Comprehensive digital solutions tailored to elevate your brand and drive measurable results.</p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card glass-card reveal">
+      <div class="service-icon">📈</div>
+      <h3 class="service-title">Digital Marketing</h3>
+      <p class="service-desc">End-to-end digital campaigns that generate leads, increase brand awareness, and drive conversions across all channels.</p>
+      <span class="service-num">01</span>
+    </div>
+    <div class="service-card glass-card reveal reveal-delay-1">
+      <div class="service-icon">📱</div>
+      <h3 class="service-title">Social Media Marketing</h3>
+      <p class="service-desc">Strategic social media presence with engaging content, community management, and growth-focused ad campaigns.</p>
+      <span class="service-num">02</span>
+    </div>
+    <div class="service-card glass-card reveal reveal-delay-2">
+      <div class="service-icon">🔍</div>
+      <h3 class="service-title">SEO Optimization</h3>
+      <p class="service-desc">Data-driven SEO strategies that push your website to the top of search results and keep it there sustainably.</p>
+      <span class="service-num">03</span>
+    </div>
+    <div class="service-card glass-card reveal reveal-delay-3">
+      <div class="service-icon">🎬</div>
+      <h3 class="service-title">Video Editing</h3>
+      <p class="service-desc">Cinematic video production and editing using Adobe Premiere Pro — from short-form Reels to long-form brand films.</p>
+      <span class="service-num">04</span>
+    </div>
+    <div class="service-card glass-card reveal reveal-delay-4">
+      <div class="service-icon">✍️</div>
+      <h3 class="service-title">Content Creation</h3>
+      <p class="service-desc">High-quality written and visual content that tells your brand story, builds trust, and engages your audience.</p>
+      <span class="service-num">05</span>
+    </div>
+    <div class="service-card glass-card reveal reveal-delay-5">
+      <div class="service-icon">🎨</div>
+      <h3 class="service-title">Logo Design</h3>
+      <p class="service-desc">Creative, memorable logo design and brand identity systems built in Canva and Adobe tools — from concept to final file.</p>
+      <span class="service-num">06</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     PORTFOLIO SECTION
+============================================ -->
+<section id="portfolio">
+  <div class="section-header-center text-center">
+    <div class="section-label reveal">Portfolio</div>
+    <h2 class="section-title reveal reveal-delay-1">Featured <span class="gradient-text">Projects</span></h2>
+    <p class="section-sub reveal reveal-delay-2">A selection of work across marketing, content, and design — every project delivered with precision.</p>
+  </div>
+
+  <div class="filter-tabs reveal reveal-delay-3">
+    <button class="filter-btn active" data-filter="all">All Work</button>
+    <button class="filter-btn" data-filter="seo">SEO</button>
+    <button class="filter-btn" data-filter="social">Social Media</button>
+    <button class="filter-btn" data-filter="video">Video</button>
+    <button class="filter-btn" data-filter="design">Design</button>
+  </div>
+
+  <div class="portfolio-grid" id="portfolioGrid">
+    <div class="project-card reveal" data-category="seo">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">🔍</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">SEO</div>
+        <h3 class="project-name">E-Commerce SEO Overhaul</h3>
+        <p class="project-desc">Took a fashion brand from page 8 to page 1 in 90 days through technical SEO, content strategy, and link building.</p>
+        <div class="project-tags">
+          <span class="project-tag">Keyword Research</span>
+          <span class="project-tag">On-Page SEO</span>
+          <span class="project-tag">Link Building</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1" data-category="social">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">📱</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">Social Media</div>
+        <h3 class="project-name">Brand Launch Campaign</h3>
+        <p class="project-desc">Built a brand's Instagram from 0 to 15K followers in 60 days with a strategic content calendar and engagement campaigns.</p>
+        <div class="project-tags">
+          <span class="project-tag">Instagram</span>
+          <span class="project-tag">Content Strategy</span>
+          <span class="project-tag">Growth Hacking</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2" data-category="video">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">🎬</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">Video Editing</div>
+        <h3 class="project-name">Product Launch Video Series</h3>
+        <p class="project-desc">Directed and edited a 6-part product video series for a tech startup — each video averaging 80K+ organic views.</p>
+        <div class="project-tags">
+          <span class="project-tag">Adobe Premiere</span>
+          <span class="project-tag">Motion Graphics</span>
+          <span class="project-tag">Color Grading</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-3" data-category="design">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">🎨</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">Design</div>
+        <h3 class="project-name">Complete Brand Identity</h3>
+        <p class="project-desc">Designed a full brand identity including logo, color palette, typography, and brand guidelines for a consultancy firm.</p>
+        <div class="project-tags">
+          <span class="project-tag">Logo Design</span>
+          <span class="project-tag">Canva</span>
+          <span class="project-tag">Brand Identity</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-4" data-category="seo social">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">📊</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">SEO · Social Media</div>
+        <h3 class="project-name">Local Business Growth</h3>
+        <p class="project-desc">Helped a local restaurant dominate local search results and double their social following in 3 months.</p>
+        <div class="project-tags">
+          <span class="project-tag">Local SEO</span>
+          <span class="project-tag">Google My Business</span>
+          <span class="project-tag">Facebook Ads</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-5" data-category="video social">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">🎥</div>
+        <div class="project-overlay"><span class="project-view-btn">View Project</span></div>
+      </div>
+      <div class="project-info">
+        <div class="project-category">Video · Content</div>
+        <h3 class="project-name">YouTube Channel Buildout</h3>
+        <p class="project-desc">End-to-end YouTube strategy, scripting, editing, and SEO for an education channel reaching 25K subscribers.</p>
+        <div class="project-tags">
+          <span class="project-tag">YouTube SEO</span>
+          <span class="project-tag">Video Editing</span>
+          <span class="project-tag">Thumbnails</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SKILLS SECTION
+============================================ -->
+<section id="skills" style="background: var(--bg-deep);">
+  <div class="section-header-center text-center">
+    <div class="section-label reveal">Toolkit</div>
+    <h2 class="section-title reveal reveal-delay-1">Skills & <span class="gradient-text">Technologies</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Tools and technologies I've mastered to deliver exceptional results.</p>
+  </div>
+
+  <div class="skills-hex-grid">
+    <div class="skill-hex reveal">
+      <div class="skill-hex-icon">🌐</div>
+      <div class="skill-hex-name">HTML</div>
+      <div class="skill-hex-level">Advanced</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-1">
+      <div class="skill-hex-icon">🎨</div>
+      <div class="skill-hex-name">CSS</div>
+      <div class="skill-hex-level">Advanced</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-2">
+      <div class="skill-hex-icon">⚡</div>
+      <div class="skill-hex-name">JavaScript</div>
+      <div class="skill-hex-level">Intermediate</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-3">
+      <div class="skill-hex-icon">🔍</div>
+      <div class="skill-hex-name">SEO</div>
+      <div class="skill-hex-level">Expert</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-4">
+      <div class="skill-hex-icon">📈</div>
+      <div class="skill-hex-name">Digital Marketing</div>
+      <div class="skill-hex-level">Expert</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-5">
+      <div class="skill-hex-icon">🎬</div>
+      <div class="skill-hex-name">Video Editing</div>
+      <div class="skill-hex-level">Advanced</div>
+    </div>
+    <div class="skill-hex reveal">
+      <div class="skill-hex-icon">🖼️</div>
+      <div class="skill-hex-name">Canva</div>
+      <div class="skill-hex-level">Expert</div>
+    </div>
+    <div class="skill-hex reveal reveal-delay-1">
+      <div class="skill-hex-icon">🎞️</div>
+      <div class="skill-hex-name">Adobe Premiere</div>
+      <div class="skill-hex-level">Advanced</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     TESTIMONIALS SECTION
+============================================ -->
+<section id="testimonials">
+  <div class="section-header-center text-center">
+    <div class="section-label reveal">Testimonials</div>
+    <h2 class="section-title reveal reveal-delay-1">What Clients <span class="gradient-text">Say</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Real words from real people who trusted me with their brands.</p>
+  </div>
+
+  <div class="testimonial-slider reveal">
+    <div class="testimonial-track" id="testimonialTrack">
+      <div class="testimonial-card glass-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Farhan completely transformed our online presence. Our organic traffic tripled in 3 months and we're now ranking for all our target keywords. Exceptional work ethic and communication throughout.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">AK</div>
+          <div>
+            <div class="testi-name">Ahmed Khan</div>
+            <div class="testi-role">CEO, TechStore PK</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"</div>
+        <p class="testi-text">The video content Farhan created for our brand was absolutely stunning. The editing quality rivals agencies charging 5x more. He understands storytelling and turns raw footage into something cinematic.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SR</div>
+          <div>
+            <div class="testi-name">Sara Raza</div>
+            <div class="testi-role">Founder, Bloom Beauty</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Farhan's social media strategy grew our Instagram page from 2K to 18K in just two months. Engagement went through the roof and we saw a direct increase in customer inquiries. Highly recommend.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MH</div>
+          <div>
+            <div class="testi-name">Mohammad Hassan</div>
+            <div class="testi-role">Owner, HM Interiors</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"</div>
+        <p class="testi-text">The logo and brand identity Farhan designed for us was exactly what we needed — modern, clean, and memorable. He delivered ahead of schedule and was extremely easy to work with.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">ZA</div>
+          <div>
+            <div class="testi-name">Zara Ahmed</div>
+            <div class="testi-role">Co-Founder, Zest Foods</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card glass-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Farhan brought a level of professionalism and creativity that we hadn't experienced before. The content he produced for our YouTube channel helped us grow from 0 to 25,000 subscribers.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">UB</div>
+          <div>
+            <div class="testi-name">Umar Butt</div>
+            <div class="testi-role">YouTube Creator</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-controls" id="sliderDots"></div>
+</section>
+
+<!-- ============================================
+     CONTACT SECTION
+============================================ -->
+<section id="contact">
+  <div class="section-label reveal">Get In Touch</div>
+  <h2 class="section-title reveal reveal-delay-1">Let's Build Something <span class="gradient-text">Great Together</span></h2>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal reveal-delay-2">
+      <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 12px;">
+        Have a project in mind? I'd love to hear about it. Whether you need a full marketing strategy or a quick video edit, I'm here to help.
+      </p>
+
+      <div class="contact-item">
+        <div class="contact-item-icon">✉️</div>
+        <div>
+          <div class="contact-item-label">Email</div>
+          <div class="contact-item-value">muhammadfarhanjameel250@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-item-icon">📍</div>
+        <div>
+          <div class="contact-item-label">Location</div>
+          <div class="contact-item-value">Pakistan · Available Worldwide</div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/923304001956" class="whatsapp-btn" target="_blank" rel="noopener">
+        💬 Chat on WhatsApp
+      </a>
+
+      <div>
+        <div class="contact-item-label" style="margin-bottom: 12px;">Follow Me</div>
+        <div class="social-links">
+          <a class="social-link" href="#" title="Instagram" aria-label="Instagram">📸</a>
+          <a class="social-link" href="#" title="LinkedIn" aria-label="LinkedIn">💼</a>
+          <a class="social-link" href="#" title="YouTube" aria-label="YouTube">▶️</a>
+          <a class="social-link" href="#" title="Twitter/X" aria-label="Twitter">𝕏</a>
+          <a class="social-link" href="#" title="Facebook" aria-label="Facebook">📘</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal reveal-delay-3">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-input" id="firstName" placeholder="Enter your name..." />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-input" id="lastName" placeholder="Enter your last name..." />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-input" id="email" placeholder="mailaddress@example.com" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Service Needed</label>
+        <select class="form-input" id="service">
+          <option value="" disabled selected>Select a service…</option>
+          <option>Digital Marketing</option>
+          <option>Social Media Marketing</option>
+          <option>SEO Optimization</option>
+          <option>Video Editing</option>
+          <option>Content Creation</option>
+          <option>Logo Design</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" placeholder="Tell me about your project…"></textarea>
+      </div>
+      <button class="form-submit" id="formSubmit" onclick="handleFormSubmit()">
+        Send Message ✦
+      </button>
+      <div class="form-success" id="formSuccess">
+        ✅ Message sent! I'll get back to you within 24 hours.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+============================================ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Muhammad Farhan Jameel</div>
+      <p class="footer-tagline">Digital Marketer · SEO Specialist · Video Editor · Content Creator. Building brands that make an impact.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigate</div>
+      <ul class="footer-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="#services">Digital Marketing</a></li>
+        <li><a href="#services">SEO Optimization</a></li>
+        <li><a href="#services">Video Editing</a></li>
+        <li><a href="#services">Content Creation</a></li>
+        <li><a href="#services">Logo Design</a></li>
+        <li><a href="#services">Social Media</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy">
+      © 2025 <span>Muhammad Farhan Jameel</span>. All rights reserved. Crafted with ✦ passion.
+    </p>
+    <div class="footer-social">
+      <a class="social-link" href="#" aria-label="Instagram">📸</a>
+      <a class="social-link" href="#" aria-label="LinkedIn">💼</a>
+      <a class="social-link" href="#" aria-label="YouTube">▶️</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================
+     JAVASCRIPT
+============================================ -->
+<script>
+  /* ========================
+     LOADING SCREEN
+  ======================== */
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('hidden');
+    }, 1000);
+  });
+
+  /* ========================
+     CUSTOM CURSOR
+  ======================== */
+  const dot  = document.getElementById('cursorDot');
+  const cyber = document.getElementById('cursorcyper');
+  let mouseX = 0, mouseY = 0, cyberX = 0, cyberY = 0;
+
+  document.addEventListener('mousemove', e => {
+    mouseX = e.clientX; mouseY = e.clientY;
+    dot.style.left  = mouseX + 'px';
+    dot.style.top   = mouseY + 'px';
+  });
+
+  // Smooth ring follow
+  function animatecyber() {
+    cyberX += (mouseX - cyberX) * 0.12;
+    cyberY += (mouseY - cyberY) * 0.12;
+    cyber.style.left = cyberX + 'px';
+    cyber.style.top  = cyberY + 'px';
+    requestAnimationFrame(animatecyber);
+  }
+  animatecyber();
+
+  document.querySelectorAll('a, button, .glass-card, .service-card, .project-card, .skill-hex, .social-link, .filter-btn, .slider-dot')
+    .forEach(el => {
+      el.addEventListener('mouseenter', () => cyber.classList.add('hovered'));
+      el.addEventListener('mouseleave', () => cyber.classList.remove('hovered'));
+    });
+
+  /* ========================
+     SCROLL PROGRESS
+  ======================== */
+  const progressBar = document.getElementById('scrollProgress');
+  window.addEventListener('scroll', () => {
+    const scrollTop  = document.documentElement.scrollTop;
+    const scrollMax  = document.documentElement.scrollHeight - window.innerHeight;
+    progressBar.style.width = (scrollTop / scrollMax * 100) + '%';
+  });
+
+  /* ========================
+     NAVBAR SCROLL
+  ======================== */
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* ========================
+     MOBILE MENU
+  ======================== */
+  const hamburger   = document.getElementById('hamburger');
+  const mobileMenu  = document.getElementById('mobileMenu');
+  const mobileClose = document.getElementById('mobileClose');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+  mobileClose.addEventListener('click', () => {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+  });
+  document.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    });
+  });
+
+  /* ========================
+     SCROLL REVEAL
+  ======================== */
+  const revealEls = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Trigger skill bars
+        entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+          bar.style.width = bar.dataset.width + '%';
+        });
+      }
+    });
+  }, { threshold: 0.1 });
+
+  revealEls.forEach(el => revealObserver.observe(el));
+
+  // Also trigger bars when their parent reveals
+  document.querySelectorAll('.skill-bar-fill').forEach(bar => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.width = entry.target.dataset.width + '%';
+        }
+      });
+    }, { threshold: 0.3 });
+    observer.observe(bar);
+  });
+
+  /* ========================
+     COUNTER ANIMATION
+  ======================== */
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el  = entry.target;
+        const end = parseInt(el.dataset.count);
+        let current = 0;
+        const step = end / 60;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= end) { el.textContent = end + '+'; clearInterval(timer); }
+          else el.textContent = Math.floor(current) + '+';
+        }, 25);
+        counterObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => counterObserver.observe(c));
+
+  /* ========================
+     PORTFOLIO FILTER
+  ======================== */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      projectCards.forEach(card => {
+        const cats = card.dataset.category || '';
+        if (filter === 'all' || cats.includes(filter)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  /* ========================
+     TESTIMONIAL SLIDER
+  ======================== */
+  const track = document.getElementById('testimonialTrack');
+  const cards = track.querySelectorAll('.testimonial-card');
+  const dotsContainer = document.getElementById('sliderDots');
+  let currentSlide = 0;
+  let slidesPerView = window.innerWidth > 1024 ? 3 : window.innerWidth > 768 ? 2 : 1;
+  const totalSlides = cards.length;
+
+  // Build dots
+  const dotCount = Math.ceil(totalSlides / slidesPerView);
+  for (let i = 0; i < dotCount; i++) {
+    const dot = document.createElement('button');
+    dot.classList.add('slider-dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+  }
+
+  function goToSlide(idx) {
+    currentSlide = idx;
+    const offset = idx * (100 / slidesPerView) * slidesPerView;
+    // Calculate percentage offset per card width
+    const cardWidth = 100 / slidesPerView;
+    track.style.transform = `translateX(-${idx * cardWidth * slidesPerView}%)`;
+    dotsContainer.querySelectorAll('.slider-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === idx);
+    });
+  }
+
+  // Auto-slide
+  let autoSlide = setInterval(() => {
+    const next = (currentSlide + 1) % dotCount;
+    goToSlide(next);
+  }, 4000);
+
+  track.addEventListener('mouseenter', () => clearInterval(autoSlide));
+  track.addEventListener('mouseleave', () => {
+    autoSlide = setInterval(() => {
+      const next = (currentSlide + 1) % dotCount;
+      goToSlide(next);
+    }, 4000);
+  });
+
+  /* ========================
+     PARTICLE CANVAS
+  ======================== */
+  const canvas = document.getElementById('particleCanvas');
+  const ctx = canvas.getContext('2d');
+
+  function resizeCanvas() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  const PARTICLE_COUNT = 80;
+  const particles = [];
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x     = Math.random() * canvas.width;
+      this.y     = Math.random() * canvas.height;
+      this.size  = Math.random() * 1.5 + 0.3;
+      this.vx    = (Math.random() - 0.5) * 0.4;
+      this.vy    = (Math.random() - 0.5) * 0.4;
+      this.alpha = Math.random() * 0.5 + 0.1;
+      this.color = Math.random() > 0.5 ? '124,58,237' : '0,212,255';
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
+        this.reset();
+      }
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${this.color},${this.alpha})`;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+
+  function drawConnections() {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(124,58,237,${0.12 * (1 - dist/120)})`;
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  function animateParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => { p.update(); p.draw(); });
+    drawConnections();
+    requestAnimationFrame(animateParticles);
+  }
+  animateParticles();
+
+  /* ========================
+     CONTACT FORM
+  ======================== */
+  function handleFormSubmit() {
+    const name    = document.getElementById('firstName').value.trim();
+    const email   = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !message) {
+      alert('Please fill in the required fields.');
+      return;
+    }
+
+    const btn = document.getElementById('formSubmit');
+    btn.textContent = 'Sending…';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      btn.style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+    }, 1500);
+  }
+
+  /* ========================
+     SMOOTH ANCHOR SCROLL
+  ======================== */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
